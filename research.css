@@ -6,6 +6,9 @@
 }
 
 .paper-copy > p:not(.paper-meta):not(.paper-status) { max-width: 780px; }
+.jmp-paper .paper-copy,
+.jmp-paper .research-figure { grid-column: 1 / -1; }
+.jmp-paper .research-figure { margin-top: 0; }
 .research-figure { margin: 34px 0 0; }
 .research-figure a { display: block; border: 1px solid var(--line); background: #fff; }
 .research-figure img { display: block; width: 100%; height: auto; }
